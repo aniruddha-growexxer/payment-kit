@@ -1,0 +1,58 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+class COLORS {
+  static const Color primary = Color(0xff13274F);
+  static const Color secordary = Color(0xffFFFFFF);
+  static const Color purpleLightest = Color(0xfffff0f5);
+  static const Color purpleLight = Color(0xffdf73ff);
+  static const Color purpleDark = Color(0xff301934);
+  static const Color darkBlue = Color(0xff0E1518);
+  static const Color skyBlueMediumLight = Color(0xff86BED6);
+  static const Color skyBlueMedium = Color(0xff85B7CB);
+  static const Color skyBlueGreyDark = Color(0xff839FAB);
+  static const Color skyBlueDark = Color(0xff6CA5BC);
+  static const Color deepBlue = Color(0xff13274F);
+  static const Color leafGreen = Color(0xff93D94B);
+  static const Color greenExtraLight = Color(0xff96D952);
+  static const Color greenLight = Color(0xff85C24C);
+  static const Color greenMedium = Color(0xff6EA13F);
+  static const Color sapGreenLight = Color(0xff345218);
+  static const Color offGreen = Color(0xff40B33E);
+  static const Color greenMoss = Color(0xff469100);
+  static const Color sapGreenMediumLight = Color(0xff1C2910);
+  static const Color sapGreenDark = Color(0xff111A0A);
+  static const Color green = Color(0xff0FCC0C);
+  static const Color goldenYellow = Color(0xffFFCC00);
+  static const Color saffronLight = Color(0xffF7B468);
+  static const Color yellowOchreLight = Color(0xffF7A64A);
+  static const Color yelllowOchre = Color(0xffF6921E);
+  static const Color lemonYellow = Color(0xffE6E039);
+  static const Color yellowishBrown = Color(0xff331B00);
+  static const Color yellowishBrownDark = Color(0xff1A0F03);
+  static const Color pinkLight = Color(0xffF76868);
+  static const Color pinkExtraLight = Color(0xffFFEFDC);
+  static const Color pinkMedium = Color(0xffF74A4A);
+  static const Color offRed = Color(0xffD92C21);
+  static const Color reddishBrown = Color(0xff4D0000);
+  static const Color reddishBrownMedium = Color(0xff330000);
+  static const Color reddishBrownDark = Color(0xff210000);
+  static const Color black = Color(0xff000000);
+  static const Color sapGreenMedium = Color(0xff111A0A);
+  static const Color blackMedium = Color(0xff1A1A1A);
+  static const Color greyDark = Color(0xff333333);
+  static const Color greyMedium = Color(0xff4D4D4D);
+  static const Color greyExtraLight = Color(0xffEBEBEB);
+  // static const Color greyMediumExtraLight = Color(0xff000029); //#00000029
+  static const Color greyLight = Color(0xff7A7A7A);
+  static const Color offWhite = Color(0xffF8F8F8);
+  static const Color greyMediumLight = Color(0xffCFCFCF);
+  static const Color greyXExtraLight = Color(0xfff5f5f5);
+  static const Color white = Color(0xffFFFFFF);
+  static const Color deepRed = Color(0xffCC1919);
+  static const Color red = Colors.red;
+  static const Color redMedium = Color(0xffFF1212);
+  static const Color reddishBrownLight = Color(0xff661A1A);
+  static const Color greyishBrownLight = Color(0xff4D2727);
+  static const Color greysishBrown = Color(0xff2E1C1C);
+}
