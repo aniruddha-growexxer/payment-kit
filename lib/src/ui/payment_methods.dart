@@ -11,11 +11,13 @@ class PaymentMethods extends StatefulWidget {
   final String merchantId;
   final String merchantKey;
   final bool testing;
+  final double amount;
   const PaymentMethods(
       {Key? key,
       required this.merchantId,
       required this.merchantKey,
-      required this.testing})
+      required this.testing,
+      required this.amount})
       : super(key: key);
 
   @override
@@ -40,7 +42,6 @@ class _PaymentMethodsState extends State<PaymentMethods> {
 
     String website = widget.testing ? "WEBSTAGING" : "DEFAULT";
 
-    double amount = 1;
     bool loading = false;
     String orderId = DateTime.now().millisecondsSinceEpoch.toString();
 
@@ -59,7 +60,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
       "key_secret": widget.merchantKey,
       "website": website,
       "orderId": orderId,
-      "amount": amount.toString(),
+      "amount": widget.amount.toString(),
       "callbackUrl": callBackUrl,
       "custId": "122",
       "mode": mode.toString(),

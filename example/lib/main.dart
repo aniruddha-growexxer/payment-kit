@@ -50,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               merchantId: Config.merchantId,
               merchantKey: Config.merchantKey,
               testing: true,
+              amount: 50,
             ),
           ],
         ),

@@ -6,12 +6,14 @@ import 'payment_methods.dart';
 class PaytmButton extends StatelessWidget {
   final String merchantId;
   final bool testing;
+  final double amount;
   final String merchantKey;
   const PaytmButton(
       {Key? key,
       required this.merchantId,
       required this.merchantKey,
-      required this.testing})
+      required this.testing,
+      required this.amount})
       : super(key: key);
 
   @override
@@ -33,6 +35,7 @@ class PaytmButton extends StatelessWidget {
               merchantId: merchantId,
               merchantKey: merchantKey,
               testing: testing,
+              amount: amount,
             ),
           ),
         );
